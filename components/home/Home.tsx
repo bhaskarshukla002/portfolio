@@ -8,7 +8,6 @@ import { Projects } from "./projects/Projects";
 import { Experience } from "./experience/Experience";
 import { Contact } from "./contact/Contact";
 import Skills from "./skills & experties/Skills";
-import { Scrollbars } from 'react-custom-scrollbars';
 
 export const Home = () => {
   return (
