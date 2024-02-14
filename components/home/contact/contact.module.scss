@@ -1,3 +1,11 @@
+.sectionWrapper {
+    position: relative;
+    z-index: 10;
+    max-width: 1150px;
+    margin: auto;
+    padding: 9.6rem 9.6rem 0rem 9.6rem;
+    overflow: hidden;
+  }
 .contactWrapper {
   max-width: 100%;
   margin: auto;
@@ -62,29 +70,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
 
 .wheel{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Akshar", sans-serif;
     position: relative;
-    height: fit-content;
     overflow: hidden;
+    height: 50vh;
+    margin-top: auto;
     display: grid;
     place-items: center;
 }
 .hub{
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     font-family: "Akshar", sans-serif;
     border-radius: 100%;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(12px);
     color: white ;
-    font-size: 100px;
+    font-size: var(--text-xl);
     font-weight: bold;
     display: grid;
     place-items: center;
     position: relative;
     z-index: 1;
-
+    
 }
 
 .spokeWrapper{
@@ -93,12 +104,10 @@
     display: grid;
     place-items: center;
     animation: spin-wheel 14s ease-in-out infinite;
-
-
 }
 .spoke{
-    width: 100%;
-    height: fit-content;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -108,37 +117,28 @@
     place-items: center;
     /* animation-delay: 0s; */
     animation: spin-spokes 14s ease-in-out infinite,scaler 14s ease-in-out  infinite; 
-
-
+    svg{
+        width: 50px;
+    }
 }
-.spoke svg{
-    width: 90px;
-}
-/* 
---- TO POSITION STUFF AROUND A CENTER POINT ---
-    x = r * cos(angle)
-    y = r * sin(angle)
-
-    Using a radius of 225 for this cuz looks good
-    6 circles, so each angle increments by 60 deg
-*/
-.spoke1{
+// .spokes 
+#spoke1{
     background-image: linear-gradient(-44deg, #4a90e2 2%, #35b5ff);
-    margin-left: 225px;
+    margin-left: 135px;
     margin-top: 0px;
     animation-delay: 0s, calc(-2.333333s * 5);
 }
-.spoke2{
+#spoke2{
     background-image: linear-gradient(
     134deg,
     rgba(143, 198, 96, 0.18),
     rgba(86, 155, 148, 0.18)
   );
-    margin-left: 112px;
-    margin-top: 194px;
+    margin-left: 67px;
+    margin-top: 116px;
     animation-delay: 0s, calc(-2.333333s * 0); 
 }
-.spoke3{
+#spoke3{
     background-image: linear-gradient(
     -70deg,
     rgba(255, 229, 80, 0.2),
@@ -146,34 +146,34 @@
     rgba(255, 183, 74, 0.2) 60%,
     rgba(255, 126, 68, 0.2) 97%
   );
-    margin-left: -112px;
-    margin-top: 194px;
+  margin-left: -67px;
+  margin-top: 116px;
     animation-delay: 0s, calc(-2.333333s * 1);
 }
-.spoke4{
+#spoke4{
     background-image: linear-gradient(
     -57deg,
     rgba(201, 135, 229, 0.05),
     rgba(152, 79, 198, 0.36)
   );
-    margin-left: -225px;
-    margin-top: 0px;
+  margin-left: -135px;
+  margin-top: 0px;
     animation-delay: 0s, calc(-2.333333s * 2); 
 }
-.spoke5{
+#spoke5{
     background-image: linear-gradient(
     180deg,
     rgba(76, 198, 215, 0.3),
     rgba(107, 231, 207, 0.3)
   );
-    margin-left: -112px;
-    margin-top: -194px;
+  margin-left: -67px;
+  margin-top: -116px;
     animation-delay: 0s, calc(-2.333333s * 3); 
 }
 #spoke6{
     background: rgba(36, 165, 215, 0.15);
-    margin-left: 112px;
-    margin-top: -194px;
+    margin-left: 67px;
+    margin-top: -116px;
     animation-delay: 0s, calc(-2.333333s * 4);
 }
 
@@ -321,3 +321,13 @@
         scale : 1.15;
     }
 }
+
+
+/* 
+--- TO POSITION STUFF AROUND A CENTER POINT ---
+    x = r * cos(angle)
+    y = r * sin(angle)
+
+    Using a radius of 225 for this cuz looks good
+    6 circles, so each angle increments by 60 deg
+*/

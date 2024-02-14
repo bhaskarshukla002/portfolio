@@ -14,6 +14,7 @@
   --text-md: 2.2rem;
   --text-lg: 3.6rem;
   --text-xl: 5.6rem;
+  --text-1xl: 8rem;
   --text-2xl: 9.6rem;
 
   --clr-neutral-100: hsl(0, 0%, 100%);
@@ -21,6 +22,9 @@
   --clr-primary-400: hsl(215, 25%, 27%);
   --clr-primary-800: hsl(217, 33%, 17%);
   --clr-primary-900: hsl(218, 33%, 9%);
+
+  scrollbar-width: var(--text-lg);
+  scrollbar-color: var(--secondary) var(--primary);
 }
 
 * {
@@ -71,4 +75,24 @@ a {
   background: var(--background-light);
   padding: 0.2rem 0.8rem;
   border-radius: 999px;
+}
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-track {
+  /* background: hsl(0, 0%, 0%); */
+  /* border-radius: 100%; */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(#ee4343, #787db8);
+  border: 0.25em ;
+  border-radius: 100vh;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border: 0.15em solid hsl(0, 0%, 100%);
 }

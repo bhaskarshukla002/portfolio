@@ -8,6 +8,7 @@ import { Projects } from "./projects/Projects";
 import { Experience } from "./experience/Experience";
 import { Contact } from "./contact/Contact";
 import Skills from "./skills & experties/Skills";
+import { Scrollbars } from 'react-custom-scrollbars';
 
 export const Home = () => {
   return (
@@ -22,13 +23,6 @@ export const Home = () => {
           <Projects />
           <Experience />
           <Contact />
-          <div
-            style={{
-              height: "200px",
-              background:
-                "linear-gradient(180deg, var(--background), var(--background-dark))",
-            }}
-          />
         </main>
       </div>
     </>

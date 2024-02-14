@@ -88,9 +88,11 @@ function Skills() {
 
                                 {row1.map((el) => (
                                     <div className={styles.imageGroup} key={el}>
-                                        <Reveal>
+                                        <div className={styles.shadowBox}>
+                                        <Reveal >
                                             <p className={styles.image}>{el}</p>
                                         </Reveal>
+                                        </div>
                                     </div>
                                 ))}
 
@@ -107,9 +109,11 @@ function Skills() {
                             <div className={styles.marqueeGroup2}>
                                 {row2.map((el) => (
                                     <div className={styles.imageGroup} key={el}>
-                                        <Reveal>
+                                        <div className={styles.shadowBox}>
+                                        <Reveal >
                                             <p className={styles.image}>{el}</p>
                                         </Reveal>
+                                        </div>
                                     </div>
                                 ))}
                             </div>

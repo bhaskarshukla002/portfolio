@@ -40,7 +40,7 @@ export const Contact = () => {
         <div className={styles.wheel}>
         <div  className={styles.hub}>Conect</div>
         <div className={styles.spokeWrapper}>
-            <div className={styles.spoke1} id="spoke-1">
+            <div className={styles.spoke} id={styles.spoke1}>
               <svg width="97" height="82" viewBox="0 0 97 82">
                 <defs>
                   <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="li_lg">
@@ -56,7 +56,7 @@ export const Contact = () => {
                 ></path>
               </svg>
             </div>
-            <div className={styles.spoke2} id="spoke-2">
+            <div className={styles.spoke} id={styles.spoke2}>
               <svg width="157" height="152" viewBox="0 0 157 152">
                 <defs>
                   <rect
@@ -130,7 +130,7 @@ export const Contact = () => {
                 </g>
               </svg>
             </div>
-            <div className={styles.spoke3} id="spoke-3">
+            <div className={styles.spoke} id={styles.spoke3}>
               <svg width="191" height="167" viewBox="0 0 191 167">
                 <defs>
                   <linearGradient
@@ -153,7 +153,7 @@ export const Contact = () => {
                 </g>
               </svg>
             </div>
-            <div className={styles.spoke4} id="spoke-4">
+            <div className={styles.spoke} id={styles.spoke4}>
               <svg width="200" height="140" viewBox="0 0 200 140">
                 <defs>
                   <linearGradient x1="50%" y1="-57%" x2="50%" y2="100%" id="env_lg">
@@ -181,7 +181,7 @@ export const Contact = () => {
                 ></path>
               </svg>
             </div>
-            <div className={styles.spoke5} id="spoke-5">
+            <div className={styles.spoke} id={styles.spoke5}>
               <svg width="158" height="158" viewBox="0 0 158 158">
                 <defs>
                   <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="phn_lg">
@@ -198,7 +198,7 @@ export const Contact = () => {
                 ></path>
               </svg>
             </div>
-            <div className={styles.spoke6} id="spoke-6">
+            <div className={styles.spoke} id={styles.spoke6}>
               <svg width="170" height="142" viewBox="0 0 170 142">
                 <path
                   transform="translate(-56, -69)"
