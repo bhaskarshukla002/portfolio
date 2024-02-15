@@ -11,7 +11,7 @@ import dynamic from 'next/dynamic';
 export const Heading = () => {
   const openResume = () => {
     // Provide the correct relative path to your PDF file
-    const pdfPath = '/Bhaskar-Shukla-resume.pdf';
+    const pdfPath = 'https://drive.google.com/file/d/1x9tHUxw5aDVfeIJFSYt2pQN001vapJ1M/view?usp=sharing';
 
     // Open the PDF file in a new tab or window
     window.open(pdfPath, '_blank');
@@ -21,7 +21,7 @@ export const Heading = () => {
       <MyLinks />
       {/* <div className={styles.headingButtons}> */}
 
-      <OutlineButton onClick={openResume}>
+      <OutlineButton onClick={openResume} >
         My resume
       </OutlineButton>
       {/* </div> */}
