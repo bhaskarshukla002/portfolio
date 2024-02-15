@@ -16,14 +16,14 @@ export const Stats = () => {
             <span className="chip">Kotlin</span>
             <span className="chip">Android</span>
             <span className="chip">Compose</span>
-            <span className="chip">JavaScript</span>
-            <span className="chip">TypeScript</span>
+            <span className="chip">.NET</span>
             <span className="chip">HTML</span>
             <span className="chip">CSS</span>
+            <span className="chip">JavaScript</span>
             <span className="chip">React</span>
             <span className="chip">MySql</span>
             <span className="chip">SqlServer</span>
-            <span className="chip">MongoDB</span>
+            <span className="chip">SpringBoot</span>
             <span className="chip">Firebase</span>
             <span className="chip">GitHub</span>
           </div>

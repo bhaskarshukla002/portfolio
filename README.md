@@ -1,4 +1,4 @@
-# YO! Ilcome to the my developer portfolio
+# YO! Welcome to the my developer portfolio
 
 You can also find a live version of this project deployed at [https://steam-portfolio-demo.vercel.app/](https://steam-portfolio-demo.vercel.app/).
 

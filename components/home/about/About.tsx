@@ -13,20 +13,22 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Howdy! I&apos;m Bhaskar Shukla, and I&apos;m a Bachelor of Science in Computer Science and Engineering.
+              Howdy! I&apos;m Bhaskar Shukla, and I&apos;m a Bachelor of Technology in Computer Science and Engineering.
               <br/><br/>
-              I have experience working in both the mobile and web development worlds, with a focus on frontend development. I&apos;m passionate about creating beautiful, responsive applications that provide a great user experience.
+              I have experience working in both the mobile and web development worlds, with a focus on Android & Frontend development. I&apos;m passionate about creating beautiful, responsive applications that provide a great user experience.
              </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              My skills include HTML, CSS, JavaScript, and various frontend frameworks like React and Vue.js. 
-              I&apos;ve also worked with backend technologies like Node.js, Firebase, MongoDB and PHP/Laravel , allowing me to build full-stack applications.
+              Also i am really proficient with mobile devlopment and have a experties in devloping Android application using kotlin.  
+              My skills include HTML, CSS, JavaScript, and various frontend frameworks like React and NEXT.js. 
+              I&apos;ve also worked with backend technologies like .NET, Firebase, SQLserver , SpringBoot and  SQLite, allowing me to build full-stack applications.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              When I&apos;m not coding, I enjoy digital painting. 
+              When I&apos;m not working, I enjoy solving leetcode coding problems.
+              and When I&apos;m not coding, I enjoy watching Anime.
               I believe that maintaining a healthy work-life balance is crucial for staying productive and motivated.
             </p>
           </Reveal>

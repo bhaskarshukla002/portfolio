@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { Reveal } from "@/components/utils/Reveal";
 import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
@@ -10,7 +10,7 @@ interface Props {
   modalContent: JSX.Element;
   description: string;
   projectLink: string;
-  imgSrc: string;
+  imgSrc: StaticImageData;
   tech: string[];
   title: string;
   code: string;

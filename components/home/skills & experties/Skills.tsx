@@ -33,7 +33,7 @@ function Skills() {
             <SectionHeader title="Skills" dir="r" />
             <IconContext.Provider value={{ color: "#ff0000", className: "global-class-name", size: "70" }}>
                 <div className={styles.experties}>
-                    <div className={styles.expertiesSection}>
+                    <div className={styles.expertiesSections}>
                         <Reveal>
                             <div className={styles.expertiesHeading}>
                                 <BsCodeSlash />
@@ -44,11 +44,11 @@ function Skills() {
                         </Reveal>
                         <Reveal>
                             <p className={styles.skillsAbout}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti architecto ipsum fuga obcaecati nemo? Obcaecati est nihil aliquam placeat autem?
+                            As a versatile software developer, I excel in multiple languages and frameworks, delivering efficient and scalable solutions. My problem-solving abilities and keen attention to detail ensure high-quality, maintainable code, adapting quickly to emerging technologies.
                             </p>
                         </Reveal>
                     </div>
-                    <div className={styles.expertiesSection}>
+                    <div className={styles.expertiesSections}>
                         <Reveal>
                             <div className={styles.expertiesHeading}>
                                 <FaReact />
@@ -60,11 +60,11 @@ function Skills() {
                         </Reveal>
                         <Reveal>
                             <p className={styles.skillsAbout}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti architecto ipsum fuga obcaecati nemo? Obcaecati est nihil aliquam placeat autem?
+                            In web development, I specialize in crafting responsive and visually appealing interfaces, leveraging both front-end (HTML, CSS, JavaScript) and back-end (Node.js, Django) technologies. My focus is on user-centric design, creating engaging and intuitive web experiences.
                             </p>
                         </Reveal>
                     </div>
-                    <div className={styles.expertiesSection}>
+                    <div className={styles.expertiesSections}>
                         <Reveal>
                             <div className={styles.expertiesHeading}>
                                 <CiMobile1 />
@@ -76,8 +76,8 @@ function Skills() {
                         </Reveal>
                         <Reveal>
                             <p className={styles.skillsAbout}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti architecto ipsum fuga obcaecati nemo? Obcaecati est nihil aliquam placeat autem?
-                            </p>
+                            As an Android developer, I bring expertise in Java, Kotlin, Android Studio, and API integration. My apps combine cutting-edge functionality with a polished user experience, staying current with trends to meet modern user expectations.
+                            </p> 
                         </Reveal>
                     </div>
                 </div>

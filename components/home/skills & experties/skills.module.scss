@@ -2,10 +2,14 @@
     display: flex;
     gap: 2.4rem;
     justify-content: center;
-    align-items: center;
-    @media (max-width: 900px) {
-      grid-template-columns: 1fr;
-    }
+    align-items: flex-start;
+    
+    // @media (max-width: 900px) {
+    //   grid-template-columns: 1fr;
+    // }
+  }
+  .contentBasis{
+    flex-basis: 100%;
   }
   .expertiesHeading{
     display: inline-flex;
@@ -23,10 +27,12 @@
   }
 
   .expertiesSections {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3.2rem;
-    gap: 3.2rem;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // grid-gap: 3.2rem;
+    // gap: 3.2rem;
+    
+    flex-basis: 100%;
 }
   /*casouroul*/
 @keyframes scrollX{

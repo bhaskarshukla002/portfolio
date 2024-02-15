@@ -1,6 +1,10 @@
 import { SectionHeader } from "@/components/utils/SectionHeader";
 import { Project } from "./Project";
 import styles from "./projects.module.scss";
+import InventoryApp from "@/public/inventory-app.png";
+import PortFolio from "@/public/screenshot.png";
+// import Profile from "@/public/inventory-app.png";
+// import Profile from "@/public/inventory-app.png";
 
 export const Projects = () => {
   return (
@@ -19,10 +23,10 @@ export const Projects = () => {
 const projects = [
   {
     title: "Inventory Tracking Application",
-    imgSrc: "/project-imgs/agency-listing.png",
+    imgSrc: (InventoryApp),
     code: "#",
     projectLink: "#",
-    tech: ["Java", "Android", "SqlSever", ""],
+    tech: ["Java", "Android", "SqlSever", "Room" ,"SQLite","Barcode",".NET"],
     description: "An Inventory Tracking Application.",
     modalContent: (
       <>
@@ -39,10 +43,10 @@ const projects = [
   },
   {
     title: "Portfolio",
-    imgSrc: "/screenshot.png",
+    imgSrc: (PortFolio),
     code: "https://github.com/bhaskarshukla002/portfolio",
     projectLink: "https://github.com/bhaskarshukla002/portfolio",
-    tech: ["React", "Styled Components", "Typescript", "Gatsby"],
+    tech: ["NEXTJS","React," , "animejs","framer-motion","tailwind"],
     description: "Portfolio Made with next.js Tailwing css",
     modalContent: (
       <>

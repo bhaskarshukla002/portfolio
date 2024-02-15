@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 interface Props {
   isOpen: boolean;
   setIsOpen: Function;
   title: string;
-  imgSrc: string;
+  imgSrc: StaticImageData;
   code: string;
   projectLink: string;
   tech: string[];
