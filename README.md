@@ -1,6 +1,6 @@
 # YO! Welcome to the my developer portfolio
 
-You can also find a live version of this project deployed at [https://steam-portfolio-demo.vercel.app/](https://steam-portfolio-demo.vercel.app/).
+You can also find a live version of this project deployed at [https://bhaskarshukla002.github.io/portfolio/](https://bhaskarshukla002.github.io/portfolio/).
 
 ## Let's get things running
 
