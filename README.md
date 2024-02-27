@@ -1,6 +1,6 @@
 # Welcome to the my developer portfolio
 
-![Screenshot]https://github.com/bhaskarshukla002/portfolio/blob/main/public/screenshot.png
+![Screenshot](https://github.com/bhaskarshukla002/portfolio/blob/main/public/screenshot.png)
 
 You can also find a live version of this project deployed at [https://bhaskarshukla002.github.io/portfolio/](https://bhaskarshukla002.github.io/portfolio/).
 
