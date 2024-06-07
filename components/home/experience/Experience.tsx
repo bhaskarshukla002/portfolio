@@ -19,7 +19,11 @@ const experience = [
     time: "feb 2023 - april 2023",
     location: "Noida, Delhi NCR",
     description:
-      "•	Developed an Android application using java from scratch upholding with latest principles and practices for android development like MVVM and room etc.",
+      "• Developed MVP for the company which then later used by manufacturing unit of more than 5 clients
+      • Designed and Developed the mobile application, Server API and Database
+      • Implemented TCP and UDP protocols for direct communication with the IoT device, ensuring that the result operation operates in real-time with a 100% success rate
+      • Tech stack: android app using java, Rxjava, room, retrofit, MVVM and server API using asp.net framework and designed Database in SQL Server
+      • whole project was a great success resulting in generating more than 20 lacs of revenue annually",
     tech: [
       "Java",
       "Android",
