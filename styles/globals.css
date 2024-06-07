@@ -9,6 +9,11 @@
   --text: rgb(255, 255, 255);
   --brand: #ff0000;
 
+  --iconColor:rgb(255,255,255);
+
+
+  --textOnDark: rgb(255,255,255);
+
   --text-xs: 1.6rem;
   --text-sm: 1.8rem;
   --text-md: 2.2rem;
