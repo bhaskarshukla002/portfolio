@@ -13,26 +13,9 @@ export const Experience = () => {
 };
 
 const experience = [
-  {
-    title: "Wissen Automation India",
-    position: "Software Developer Intern",
-    time: "feb 2023 - april 2023",
-    location: "Noida, Delhi NCR",
-    description:
-      "• Developed MVP for the company which then later used by manufacturing unit of more than 5 client \n • Designed and Developed the mobile application, Server API and Database \n • Implemented TCP and UDP protocols for direct communication with the IoT device, ensuring that the result operation operates in real-time with a 100% success rate \n • whole project was a great success resulting in generating more than 20 lacs of revenue annually",
-    tech: [
-      "Java",
-      "Android",
-      "SQLServer",
-      ".NET",
-      "MVVM",
-      "SAP",
-      "Git",
-    ],
-  },
-  {
+    {
     title: "Coforge",
-    position: "Software Engineer",
+    position: "Software Engineer (Cloud Monitoring & Automation)",
     time: "January 2025 - Present",
     location: "On-Site",
     description:
@@ -60,6 +43,24 @@ const experience = [
       "Windows Server"
     ],
   },
+  {
+    title: "Wissen Automation India",
+    position: "Software Developer Intern",
+    time: "feb 2023 - april 2023",
+    location: "Noida, Delhi NCR",
+    description:
+      "• Developed MVP for the company which then later used by manufacturing unit of more than 5 client \n • Designed and Developed the mobile application, Server API and Database \n • Implemented TCP and UDP protocols for direct communication with the IoT device, ensuring that the result operation operates in real-time with a 100% success rate \n • whole project was a great success resulting in generating more than 20 lacs of revenue annually",
+    tech: [
+      "Java",
+      "Android",
+      "SQLServer",
+      ".NET",
+      "MVVM",
+      "SAP",
+      "Git",
+    ],
+  },
+
   // {
   //   title: "Advance Technologies Integration, LLC.",
   //   position: "Javascript Developer",
