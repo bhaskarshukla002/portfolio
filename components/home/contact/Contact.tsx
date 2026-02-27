@@ -14,7 +14,9 @@ export const Contact = () => {
         </Reveal>
         <Reveal width="100%">
           <p className={styles.contactCopy}>
-            Have an idea to discuss? Shoot me an email if you want to connect! You can also find me on{" "}
+            Interested in cloud monitoring, automation, or observability projects? 
+            Let’s connect and discuss how we can build reliable, scalable systems together.
+            Shoot me an email if you want to connect! You can also find me on{" "}
             <Link
               href="https://www.linkedin.com/in/bhaskar-s-283008216/"
               target="_blank"
