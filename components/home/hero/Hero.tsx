@@ -44,10 +44,10 @@ export const Hero = () => {
           </Reveal>
           <Reveal>
           <p className={styles.aboutCopy}>
-  Over the past few years, I&apos;ve transitioned from building full-stack applications during college to working on enterprise-scale cloud monitoring and automation solutions. I specialize in designing Azure monitoring architectures, optimizing system reliability, reducing operational noise, and improving cost efficiency across large cloud environments.  
-  <br /><br />
-  I&apos;m passionate about solving complex infrastructure challenges and continuously improving system observability. Let&apos;s connect and build something impactful.
-</p>
+            I design and optimize enterprise-scale Azure monitoring and automation systems. I focus on improving reliability, observability, and cloud cost efficiency.
+            <br /><br />
+           I&apos;m passionate about solving complex infrastructure challenges and continuously improving system observability. Let&apos;s connect and build something impactful.
+          </p>
           </Reveal>
           <Reveal>
             <StandardButton
