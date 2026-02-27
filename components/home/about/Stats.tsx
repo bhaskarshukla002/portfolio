@@ -12,22 +12,23 @@ export const Stats = () => {
             <span>Use at work</span>
           </h4>
           <div className={styles.statGrid}>
-            <span className="chip">Java</span>
-            <span className="chip">Kotlin</span>
-            <span className="chip">Android</span>
-            <span className="chip">Compose</span>
-            <span className="chip">.NET</span>
-            <span className="chip">HTML</span>
-            <span className="chip">CSS</span>
-            <span className="chip">JavaScript</span>
-            <span className="chip">React</span>
-            <span className="chip">MySql</span>
-            <span className="chip">SqlServer</span>
-            <span className="chip">SpringBoot</span>
-            <span className="chip">Firebase</span>
-            <span className="chip">GitHub</span>
-          </div>
-        </div>
+  <span className="chip">Azure Monitor</span>
+  <span className="chip">Log Analytics</span>
+  <span className="chip">Azure Policy</span>
+  <span className="chip">Logic Apps</span>
+  <span className="chip">BMC Discovery</span>
+  <span className="chip">EvolveOps.ai</span>
+  <span className="chip">SolarWinds</span>
+  <span className="chip">Site24x7</span>
+  <span className="chip">Terraform</span>
+  <span className="chip">Ansible</span>
+  <span className="chip">Jenkins</span>
+  <span className="chip">Kubernetes</span>
+  <span className="chip">Linux</span>
+  <span className="chip">Windows Server</span>
+  <span className="chip">Azure AD (Entra ID)</span>
+</div>
+</div>
       </Reveal>
       <Reveal>
         <div className={styles.statColumn}>
@@ -36,16 +37,16 @@ export const Stats = () => {
             <span>Use for fun</span>
           </h4>
           <div className={styles.statGrid}>
-            <span className="chip">SpringBoot</span>
-            <span className="chip">.NET</span>
-            <span className="chip">Chakra Ui</span>
-            <span className="chip">Tailwind</span>
-            <span className="chip">Figma</span>
-            <span className="chip">Planetscale</span>
-            <span className="chip">GraphQL</span>
-            <span className="chip">Blender3D</span>
-            <span className="chip">Three.js</span>
-          </div>
+  <span className="chip">KQL</span>
+  <span className="chip">Azure CLI</span>
+  <span className="chip">PowerShell</span>
+  <span className="chip">Terraform (Azure)</span>
+  <span className="chip">Docker</span>
+  <span className="chip">System Design</span>
+  <span className="chip">LeetCode</span>
+  <span className="chip">Cloud Cost Optimization</span>
+  <span className="chip">Observability</span>
+</div>
         </div>
       </Reveal>
     </div>

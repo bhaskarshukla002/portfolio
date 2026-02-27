@@ -10,123 +10,124 @@ import { IconContext } from "react-icons";
 import { FaLaptopCode } from "react-icons/fa";
 import { BsCodeSlash } from "react-icons/bs";
 
-
 function Skills() {
     const row1 = [
-        'Java', 'Kotlin', 'SQL', 'C++', 'HTML', 'CSS', 'JavaScript',
-        'MySQL', 'SQLite', 'Firebase', 'SQL Server',
-        'GitHub', 'Bitbucket',
-        'Android', 'J2SE', 'J2EE',
-        'Gradle', 'Android SDK', 'RESTful services'
+        'Azure Monitor', 'Log Analytics', 'Azure Policy', 'Logic Apps',
+        'BMC Discovery', 'EvolveOps.ai', 'SolarWinds', 'Site24x7',
+        'Data Collection Rules (DCR)', 'KQL',
+        'Terraform', 'Ansible', 'Jenkins',
+        'Kubernetes', 'Docker',
+        'Linux', 'Windows Server',
+        'Azure AD (Entra ID)', 'RBAC'
     ];
 
     const row2 = [
-        'Java', 'Kotlin', 'SQL', 'C++', 'HTML', 'CSS', 'JavaScript',
-        'MySQL', 'SQLite', 'Firebase', 'SQL Server',
-        'GitHub', 'Bitbucket',
-        'Android', 'J2SE', 'J2EE',
-        'Gradle', 'Android SDK', 'RESTful services'
+        'Azure Monitor', 'Log Analytics', 'Azure Policy', 'Logic Apps',
+        'BMC Discovery', 'EvolveOps.ai', 'SolarWinds', 'Site24x7',
+        'Data Collection Rules (DCR)', 'KQL',
+        'Terraform', 'Ansible', 'Jenkins',
+        'Kubernetes', 'Docker',
+        'Linux', 'Windows Server',
+        'Azure AD (Entra ID)', 'RBAC'
     ];
 
     return (
         <section id="skills" className="section-wrapper">
-            <SectionHeader title="Skills" dir="r" />
-            <IconContext.Provider value={{ color: "#ff0000", className: "global-class-name", size: "70" }}>
+            <SectionHeader title="Skills & Expertise" dir="r" />
+
+            <IconContext.Provider value={{ color: "#ff0000", size: "70" }}>
+
                 <div className={styles.experties}>
+
+                    {/* Cloud Monitoring */}
                     <div className={styles.expertiesSections}>
                         <Reveal>
                             <div className={styles.expertiesHeading}>
                                 <BsCodeSlash />
                                 <div className={styles.expertiesHeadingText}>
-                                    Software Development
+                                    Cloud Monitoring & Observability
                                 </div>
                             </div>
                         </Reveal>
                         <Reveal>
                             <p className={styles.skillsAbout}>
-                            As a versatile software developer, I excel in multiple languages and frameworks, delivering efficient and scalable solutions. My problem-solving abilities and keen attention to detail ensure high-quality, maintainable code, adapting quickly to emerging technologies.
+                                Designing and optimizing Azure monitoring architectures using Azure Monitor, Log Analytics, and Data Collection Rules. 
+                                Experienced in alert tuning, subscription-level alerting strategy, incident automation using Logic Apps, and log ingestion cost optimization.
                             </p>
                         </Reveal>
                     </div>
+
+                    {/* ITOM */}
                     <div className={styles.expertiesSections}>
                         <Reveal>
                             <div className={styles.expertiesHeading}>
                                 <FaReact />
                                 <div className={styles.expertiesHeadingText}>
-                                    Web Frontend Dev
-                                    React,NextJS
+                                    ITOM & Discovery Engineering
                                 </div>
                             </div>
                         </Reveal>
                         <Reveal>
                             <p className={styles.skillsAbout}>
-                            In web development, I specialize in crafting responsive and visually appealing interfaces, leveraging both front-end (HTML, CSS, JavaScript) and back-end (Node.js, Django) technologies. My focus is on user-centric design, creating engaging and intuitive web experiences.
+                                BMC Discovery administration and custom pattern development, improving discovery coverage and infrastructure visibility. 
+                                Experience integrating monitoring tools across hybrid environments for centralized observability.
                             </p>
                         </Reveal>
                     </div>
+
+                    {/* Automation & DevOps */}
                     <div className={styles.expertiesSections}>
                         <Reveal>
                             <div className={styles.expertiesHeading}>
                                 <CiMobile1 />
                                 <div className={styles.expertiesHeadingText}>
-                                    Mobile Dev
-                                    Android,ios
+                                    Automation & DevOps
                                 </div>
                             </div>
                         </Reveal>
                         <Reveal>
                             <p className={styles.skillsAbout}>
-                            As an Android developer, I bring expertise in Java, Kotlin, Android Studio, and API integration. My apps combine cutting-edge functionality with a polished user experience, staying current with trends to meet modern user expectations.
-                            </p> 
+                                Implementing policy-based VM onboarding at Management Group level, infrastructure automation using Terraform and Ansible, 
+                                CI/CD with Jenkins, and container orchestration with Kubernetes and Docker.
+                            </p>
                         </Reveal>
                     </div>
+
                 </div>
+
+                {/* Skill Marquee */}
                 <div className={styles.appContainer}>
                     <div className={styles.wrapper}>
                         <div className={styles.marquee}>
                             <div className={styles.marqueeGroup}>
-
                                 {row1.map((el) => (
                                     <div className={styles.imageGroup} key={el}>
                                         <div className={styles.shadowBox}>
-                                        <Reveal >
-                                            <p className={styles.image}>{el}</p>
-                                        </Reveal>
+                                            <Reveal>
+                                                <p className={styles.image}>{el}</p>
+                                            </Reveal>
                                         </div>
                                     </div>
                                 ))}
-
                             </div>
-                            {/* <MarqueeGroup>
-                                {row1.map((el) => (
-                                    <ImageGroup>
-                                        <Image >{el}</Image>
-                                    </ImageGroup>
-                                ))}
-                            </MarqueeGroup> */}
                         </div>
+
                         <div className={styles.marquee}>
                             <div className={styles.marqueeGroup2}>
                                 {row2.map((el) => (
                                     <div className={styles.imageGroup} key={el}>
                                         <div className={styles.shadowBox}>
-                                        <Reveal >
-                                            <p className={styles.image}>{el}</p>
-                                        </Reveal>
+                                            <Reveal>
+                                                <p className={styles.image}>{el}</p>
+                                            </Reveal>
                                         </div>
                                     </div>
                                 ))}
                             </div>
-                            {/* <MarqueeGroup2>
-                                {row2.map((el) => (
-                                    <ImageGroup>
-                                        <Image >{el}</Image>
-                                    </ImageGroup>
-                                ))}
-                            </MarqueeGroup2> */}
                         </div>
                     </div>
                 </div>
+
             </IconContext.Provider>
         </section>
     )
