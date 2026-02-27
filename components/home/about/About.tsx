@@ -13,7 +13,7 @@ export const About = () => {
         <div>
         <Reveal>
   <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-    Howdy! I&apos;m Bhaskar Shukla, a Computer Science graduate and currently working as a Software Engineer specializing in Azure Cloud Monitoring, ITOM, and Automation.
+    I&apos;m Bhaskar Shukla, a Computer Science graduate and currently working as a Software Engineer specializing in Azure Cloud Monitoring, ITOM, and Automation.
     <br/><br/>
     I work on designing and optimizing enterprise-grade Azure monitoring architectures, implementing alert-to-incident automation, and improving system observability across hybrid cloud environments. I’ve successfully reduced alert noise by over 70% and automated monitoring onboarding for 300+ virtual machines using Azure Policies.
   </p>
