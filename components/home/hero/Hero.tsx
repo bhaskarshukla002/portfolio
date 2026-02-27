@@ -43,11 +43,11 @@ export const Hero = () => {
             </h2>
           </Reveal>
           <Reveal>
-            <p className={styles.aboutCopy}>
-              I&apos;ve spent the last 4 years of college building and scaling applications for
-              some pretty cool companies and individuals projects. I also love to create interesting self projects on my spare time.
-              And I think Let&apos;s connect!
-            </p>
+          <p className={styles.aboutCopy}>
+  Over the past few years, I&apos;ve transitioned from building full-stack applications during college to working on enterprise-scale cloud monitoring and automation solutions. I specialize in designing Azure monitoring architectures, optimizing system reliability, reducing operational noise, and improving cost efficiency across large cloud environments.  
+  <br /><br />
+  I&apos;m passionate about solving complex infrastructure challenges and continuously improving system observability. Let&apos;s connect and build something impactful.
+</p>
           </Reveal>
           <Reveal>
             <StandardButton
