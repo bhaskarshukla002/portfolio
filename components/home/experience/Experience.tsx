@@ -30,6 +30,36 @@ const experience = [
       "Git",
     ],
   },
+  {
+    title: "Coforge",
+    position: "Software Engineer",
+    time: "January 2025 - Present",
+    location: "On-Site",
+    description:
+      "• Re-architected Azure monitoring post-transition by restructuring alerts from resource-level to subscription-level and correcting lookback configurations, reducing daily alert volume from 1000+ to 300+ (70% reduction) \n \
+       • Optimized Log Analytics ingestion using Data Collection Rules and selective log filtering, significantly reducing workspace ingestion costs \n \
+       • Automated onboarding of 300+ VMs and multiple cloud resources using built-in Azure Policies at Management Group level to deploy AMA, assign UAMI, and enable VM Insights \n \
+       • Administered BMC Discovery and developed custom patterns including Oracle audit cleanup logic, improving discovery coverage from 50% to 90% and avoiding vendor costs of $25,000+ \n \
+       • Worked on EvolveOps.ai, SolarWinds, and Site24x7 for centralized monitoring, alert correlation, and health validation across hybrid environments \n \
+       • Contributed to development of an internal automation web portal, reducing manual operational effort by 15+ hours per week",
+    tech: [
+      "Azure Monitor",
+      "Log Analytics",
+      "Azure Policy",
+      "Logic Apps",
+      "BMC Discovery",
+      "EvolveOps.ai",
+      "SolarWinds",
+      "Site24x7",
+      "Ansible",
+      "Terraform",
+      "Jenkins",
+      "Kubernetes",
+      "VMware",
+      "Linux",
+      "Windows Server"
+    ],
+  },
   // {
   //   title: "Advance Technologies Integration, LLC.",
   //   position: "Javascript Developer",
