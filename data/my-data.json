@@ -2,7 +2,7 @@
   "personal": {
     "name": "Bhaskar Shukla",
     "initials": "BS",
-    "profileImage": "/portfolio/myImage.JPG",
+    "profileImage": "/portfolio/myImage.jpg",
     "title": "Software Engineer",
     "resumeUrl": "https://drive.google.com/file/d/1x9tHUxw5aDVfeIJFSYt2pQN001vapJ1M/view?usp=sharing",
     "siteUrl": "https://github.com/bhaskarshukla002"
@@ -266,7 +266,7 @@
     },
     {
       "title": "Trash Throwing Action Detection",
-      "image": "/frame_85.jpg",
+      "image": "/portfolio/screenshot.png",
       "code": "https://github.com/bhaskarshukla002/Trash-Throwing-Action-Detection",
       "projectLink": "https://github.com/bhaskarshukla002/Trash-Throwing-Action-Detection",
       "tech": [
