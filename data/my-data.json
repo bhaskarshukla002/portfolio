@@ -104,8 +104,8 @@
     {
       "title": "Wissen Automation India",
       "position": "Software Developer Intern",
-      "time": "February 2023 - April 2023",
-      "location": "Noida, Delhi NCR",
+      "time": "February 2023 - July 2023",
+      "location": "Remote",
       "description": "• Developed an MVP that was later used by manufacturing units across more than 5 clients\n• Designed and developed the Android application, server API, and database components\n• Implemented TCP and UDP communication with IoT devices for real-time operations\n• Built reusable application components using Android, Java, MVVM, and Room\n• Worked with .NET APIs and SQL Server for backend integration\n• Contributed to a solution that generated significant annual business value",
       "tech": [
         "Java",
@@ -115,7 +115,7 @@
         ".NET",
         "MVVM",
         "Room",
-        "SAP",
+        "QR Code",
         "Git"
       ]
     }
