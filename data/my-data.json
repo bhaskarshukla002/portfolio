@@ -33,15 +33,17 @@
 
   "stats": {
     "useAtWork": [
+      "Python",
+      "Node.js",
       "AWS",
       "Azure",
       "Azure Monitor",
       "Log Analytics",
       "Azure Policy",
       "Data Collection Rules",
-      "Logic Apps",
+      "Logic Apps Development",
       "BMC Discovery",
-      "EvolveOps.ai",
+      "System Design",
       "SolarWinds",
       "Site24x7",
       "Terraform",
@@ -52,11 +54,8 @@
       "Linux",
       "Windows Server",
       "PostgreSQL",
-      "Python",
-      "Node.js"
     ],
     "useForFun": [
-      "Python",
       "TypeScript",
       "React",
       "Next.js",
@@ -67,9 +66,7 @@
       "AWS Bedrock",
       "KQL",
       "Azure CLI",
-      "PowerShell",
       "Docker",
-      "System Design",
       "Cloud Cost Optimization",
       "FinOps",
       "AI Agents",
@@ -243,7 +240,7 @@
     },
     {
       "title": "AI Infrastructure Automation",
-      "image": "/portfolio/frame_85.jpg",
+      "image": "/portfolio/screenshot.png",
       "code": "#",
       "projectLink": "#",
       "tech": [
@@ -266,7 +263,7 @@
     },
     {
       "title": "Trash Throwing Action Detection",
-      "image": "/portfolio/screenshot.png",
+      "image": "/portfolio/frame_85.jpg",
       "code": "https://github.com/bhaskarshukla002/Trash-Throwing-Action-Detection",
       "projectLink": "https://github.com/bhaskarshukla002/Trash-Throwing-Action-Detection",
       "tech": [
