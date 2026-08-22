@@ -285,25 +285,6 @@
         "Designed distance-based calculations between tracked objects and hand keypoints to identify throwing actions.",
         "Optimized the pipeline for real-time processing and achieved approximately 10 FPS on an NVIDIA GTX 1650."
       ]
-    },
-    {
-      "title": "Project Management App",
-      "image": "/portfolio/screenshot.png",
-      "code": "https://github.com/bhaskarshukla002/ProjectManageApp",
-      "projectLink": "https://github.com/bhaskarshukla002/ProjectManageApp",
-      "tech": [
-        "Android",
-        "Kotlin",
-        "Firebase",
-        "Retrofit",
-        "Kanban"
-      ],
-      "description": "A project and task management application designed for organizing projects and collaborating with teams.",
-      "modalContent": [
-        "Implemented boards, lists, cards, member assignment, due dates, and notifications.",
-        "Integrated Firebase authentication, real-time database functionality, and cloud storage.",
-        "Built a Kanban-style interface for organizing and tracking project tasks."
-      ]
     }
   ],
 
@@ -347,5 +328,9 @@
 
   "footer": {
     "text": "© 2026 Bhaskar Shukla"
+  },
+  "site": {
+    "basePath": "/portfolio",
+    "favicon": "/favicon.png"
   }
 }

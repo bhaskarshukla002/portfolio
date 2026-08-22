@@ -10,7 +10,7 @@ export default function home() {
     <>
       <Head>
         <title>{title}</title>
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href={`${data.site.basePath}${data.site.favicon}`} />
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content={title} />
