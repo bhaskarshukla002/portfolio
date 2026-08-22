@@ -2,7 +2,7 @@
   "personal": {
     "name": "Bhaskar Shukla",
     "initials": "BS",
-    "profileImage": "/myImage.JPG",
+    "profileImage": "/portfolio/myImage.JPG",
     "title": "Software Engineer",
     "resumeUrl": "https://drive.google.com/file/d/1x9tHUxw5aDVfeIJFSYt2pQN001vapJ1M/view?usp=sharing",
     "siteUrl": "https://github.com/bhaskarshukla002"
@@ -190,7 +190,7 @@
   "projects": [
     {
       "title": "FinOps Cloud Cost Optimization Platform",
-      "image": "/screenshot.png",
+      "image": "/portfolio/screenshot.png",
       "code": "#",
       "projectLink": "#",
       "tech": [
@@ -216,7 +216,7 @@
     },
     {
       "title": "ITSM Platform",
-      "image": "/inventory-app.png",
+      "image": "/portfolio/itsm.png",
       "code": "#",
       "projectLink": "#",
       "tech": [
@@ -243,7 +243,7 @@
     },
     {
       "title": "AI Infrastructure Automation",
-      "image": "/frame_85.jpg",
+      "image": "/portfolio/frame_85.jpg",
       "code": "#",
       "projectLink": "#",
       "tech": [
@@ -288,7 +288,7 @@
     },
     {
       "title": "Project Management App",
-      "image": "/screenshot.png",
+      "image": "/portfolio/screenshot.png",
       "code": "https://github.com/bhaskarshukla002/ProjectManageApp",
       "projectLink": "https://github.com/bhaskarshukla002/ProjectManageApp",
       "tech": [
