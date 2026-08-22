@@ -218,7 +218,7 @@
       "title": "ITSM Platform",
       "image": "/portfolio/itsm.png",
       "code": "#",
-      "projectLink": "#",
+      "projectLink": "https://github.com/bhaskarshukla002/ITSM",
       "tech": [
         "Next.js",
         "React",
