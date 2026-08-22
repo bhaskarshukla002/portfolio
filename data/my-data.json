@@ -1,0 +1,351 @@
+{
+  "personal": {
+    "name": "Bhaskar Shukla",
+    "initials": "BS",
+    "profileImage": "/myImage.JPG",
+    "title": "Software Engineer",
+    "resumeUrl": "https://drive.google.com/file/d/1x9tHUxw5aDVfeIJFSYt2pQN001vapJ1M/view?usp=sharing",
+    "siteUrl": "https://github.com/bhaskarshukla002"
+  },
+
+  "hero": {
+    "animatedTitles": [
+      "a Software Engineer",
+      "a Cloud Engineer",
+      "a DevOps Engineer",
+      "a Full Stack Developer",
+      "a FinOps Developer",
+      "an AI & Automation Enthusiast"
+    ],
+    "description": "I'm a Software Engineer focused on cloud infrastructure, DevOps, ITOM, FinOps, backend development, and AI-powered automation. I build systems that improve reliability, observability, operational efficiency, and cloud cost optimization.",
+    "contactButton": "Contact me"
+  },
+
+  "about": {
+    "paragraphs": [
+      "Howdy! I'm Bhaskar Shukla, a Computer Science graduate and Software Engineer working across cloud engineering, ITOM, DevOps, backend development, and automation.",
+      "My professional experience includes designing and optimizing enterprise Azure monitoring environments, improving observability, automating infrastructure onboarding, reducing alert noise, and optimizing cloud monitoring costs. I've reduced alert volumes by over 70% and automated monitoring onboarding for 300+ virtual machines using Azure Policies.",
+      "I've worked with Azure Monitor, Log Analytics, Data Collection Rules, Azure Policy, BMC Discovery, EvolveOps.ai, SolarWinds, Site24x7, Terraform, Ansible, Kubernetes, Linux, and Windows Server across hybrid infrastructure environments.",
+      "Alongside my professional work, I build software products around cloud and infrastructure. My recent projects include a FinOps platform for AWS and Azure cost analysis and optimization, an ITSM platform with RBAC and workflow management, and AI-powered automation workflows using technologies such as LangGraph, LangChain, MCP, Ansible, ServiceNow, and AWS Bedrock.",
+      "I enjoy solving complex engineering problems and building systems that automate repetitive work, improve reliability, and make infrastructure easier to operate."
+    ]
+  },
+
+  "stats": {
+    "useAtWork": [
+      "AWS",
+      "Azure",
+      "Azure Monitor",
+      "Log Analytics",
+      "Azure Policy",
+      "Data Collection Rules",
+      "Logic Apps",
+      "BMC Discovery",
+      "EvolveOps.ai",
+      "SolarWinds",
+      "Site24x7",
+      "Terraform",
+      "Ansible",
+      "Jenkins",
+      "Kubernetes",
+      "Docker",
+      "Linux",
+      "Windows Server",
+      "PostgreSQL",
+      "Python",
+      "Node.js"
+    ],
+    "useForFun": [
+      "Python",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "FastAPI",
+      "LangGraph",
+      "LangChain",
+      "MCP",
+      "AWS Bedrock",
+      "KQL",
+      "Azure CLI",
+      "PowerShell",
+      "Docker",
+      "System Design",
+      "Cloud Cost Optimization",
+      "FinOps",
+      "AI Agents",
+      "Observability"
+    ]
+  },
+
+  "experience": [
+    {
+      "title": "Coforge",
+      "position": "Software Engineer",
+      "time": "January 2025 - Present",
+      "location": "On-Site",
+      "description": "• Re-architected Azure monitoring after a major environment transition by restructuring alerts from resource-level to subscription-level and correcting lookback configurations, reducing daily alert volume from 1000+ to 300+ (70% reduction)\n• Optimized Log Analytics ingestion using Data Collection Rules and selective log filtering, reducing unnecessary log ingestion and monitoring costs\n• Automated onboarding of 300+ virtual machines and multiple cloud resources using Azure Policies at Management Group level to deploy Azure Monitor Agent, assign User Assigned Managed Identity, and enable VM Insights\n• Administered BMC Discovery and developed custom patterns, improving infrastructure discovery coverage from approximately 50% to 90% and avoiding significant vendor costs\n• Worked with EvolveOps.ai, SolarWinds, and Site24x7 for centralized monitoring, alert correlation, health validation, and hybrid infrastructure observability\n• Contributed to internal automation and self-service tooling to reduce repetitive operational work\n• Worked with Azure, infrastructure automation, Terraform, Ansible, Kubernetes, VMware, Linux, and Windows Server environments",
+      "tech": [
+        "Azure",
+        "Azure Monitor",
+        "Log Analytics",
+        "Azure Policy",
+        "Data Collection Rules",
+        "Logic Apps",
+        "BMC Discovery",
+        "EvolveOps.ai",
+        "SolarWinds",
+        "Site24x7",
+        "Ansible",
+        "Terraform",
+        "Jenkins",
+        "Kubernetes",
+        "VMware",
+        "Linux",
+        "Windows Server"
+      ]
+    },
+    {
+      "title": "Wissen Automation India",
+      "position": "Software Developer Intern",
+      "time": "February 2023 - April 2023",
+      "location": "Noida, Delhi NCR",
+      "description": "• Developed an MVP that was later used by manufacturing units across more than 5 clients\n• Designed and developed the Android application, server API, and database components\n• Implemented TCP and UDP communication with IoT devices for real-time operations\n• Built reusable application components using Android, Java, MVVM, and Room\n• Worked with .NET APIs and SQL Server for backend integration\n• Contributed to a solution that generated significant annual business value",
+      "tech": [
+        "Java",
+        "Android",
+        "Kotlin",
+        "SQL Server",
+        ".NET",
+        "MVVM",
+        "Room",
+        "SAP",
+        "Git"
+      ]
+    }
+  ],
+
+  "skills": {
+    "sections": [
+      {
+        "title": "Cloud & FinOps",
+        "description": "Building cloud-focused solutions across AWS and Azure, including cloud cost analysis, resource utilization analysis, cost optimization, monitoring, governance, and FinOps workflows."
+      },
+      {
+        "title": "Cloud Monitoring & Observability",
+        "description": "Designing and optimizing Azure monitoring architectures using Azure Monitor, Log Analytics, Data Collection Rules, Azure Policy, and Logic Apps. Experienced in alert tuning, observability, log ingestion optimization, and monitoring automation."
+      },
+      {
+        "title": "ITOM & Infrastructure",
+        "description": "Experience with BMC Discovery, infrastructure discovery, custom pattern development, hybrid infrastructure monitoring, VMware, Linux, Windows Server, and enterprise monitoring platforms."
+      },
+      {
+        "title": "DevOps & Automation",
+        "description": "Working with Terraform, Ansible, Docker, Kubernetes, Jenkins, Linux, infrastructure automation, CI/CD, and cloud-native workflows."
+      },
+      {
+        "title": "Backend & Full Stack Development",
+        "description": "Building backend and full-stack applications using Python, FastAPI, Node.js, Express, TypeScript, PostgreSQL, React, Next.js, and REST APIs."
+      },
+      {
+        "title": "AI & Agentic Automation",
+        "description": "Exploring AI-powered automation using AWS Bedrock, LangGraph, LangChain, MCP, AI agents, RAG, ServiceNow automation, and Ansible-driven workflows."
+      }
+    ],
+    "marquee": [
+      [
+        "AWS",
+        "Azure",
+        "Azure Monitor",
+        "Log Analytics",
+        "Azure Policy",
+        "Data Collection Rules",
+        "BMC Discovery",
+        "EvolveOps.ai",
+        "Site24x7",
+        "Terraform",
+        "Ansible",
+        "Kubernetes",
+        "Docker",
+        "Jenkins",
+        "Python",
+        "FastAPI",
+        "Node.js",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "PostgreSQL",
+        "Linux",
+        "KQL",
+        "PowerShell",
+        "FinOps",
+        "LangGraph",
+        "LangChain",
+        "MCP",
+        "AWS Bedrock",
+        "RBAC"
+      ]
+    ]
+  },
+
+  "projects": [
+    {
+      "title": "FinOps Cloud Cost Optimization Platform",
+      "image": "/screenshot.png",
+      "code": "#",
+      "projectLink": "#",
+      "tech": [
+        "Python",
+        "Node.js",
+        "React",
+        "AWS",
+        "Azure",
+        "PostgreSQL",
+        "AWS Bedrock",
+        "FinOps",
+        "FOCUS"
+      ],
+      "description": "A cloud FinOps platform designed to analyze AWS and Azure costs, visualize spending, analyze resource utilization, and generate cost optimization recommendations.",
+      "modalContent": [
+        "Built a cloud cost ingestion and normalization workflow for AWS and Azure data.",
+        "Worked with FOCUS-formatted cost data and cloud billing exports for standardized cost analysis.",
+        "Designed dashboards for cloud spending, service-level cost breakdowns, trends, and resource information.",
+        "Implemented rule-based cost optimization recommendations using resource utilization and cost data.",
+        "Integrated AWS Bedrock to generate AI-powered cloud cost optimization insights.",
+        "Designed the platform around separate backend and analytics services with PostgreSQL as the central data layer."
+      ]
+    },
+    {
+      "title": "ITSM Platform",
+      "image": "/inventory-app.png",
+      "code": "#",
+      "projectLink": "#",
+      "tech": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "JWT",
+        "RBAC",
+        "Tailwind CSS"
+      ],
+      "description": "A full-stack IT Service Management platform inspired by Jira and ServiceNow, providing ticket, project, user, role, permission, and workflow management.",
+      "modalContent": [
+        "Implemented JWT-based authentication and role-based access control.",
+        "Built user, role, and permission management with administrative access controls.",
+        "Implemented issue and project management with priorities, statuses, labels, and workflow states.",
+        "Built a Kanban-style board with drag-and-drop issue movement.",
+        "Implemented notification management including read, mark-all-read, and delete operations.",
+        "Added attachments, administrative workflows, and user management functionality.",
+        "Built the backend using Express, TypeScript, PostgreSQL, modular services, controllers, middleware, and authorization layers."
+      ]
+    },
+    {
+      "title": "AI Infrastructure Automation",
+      "image": "/frame_85.jpg",
+      "code": "#",
+      "projectLink": "#",
+      "tech": [
+        "Python",
+        "LangGraph",
+        "LangChain",
+        "MCP",
+        "Ansible",
+        "ServiceNow",
+        "AI Agents"
+      ],
+      "description": "An agentic automation workflow designed to connect AI agents with infrastructure automation and ITSM systems.",
+      "modalContent": [
+        "Designed a modular LangGraph-based multi-agent architecture.",
+        "Created specialist agents for ServiceNow and Ansible operations.",
+        "Explored MCP-based integration so external AI systems can interact with the automation capabilities.",
+        "Designed workflows where AI agents can interpret requests and execute infrastructure or ITSM operations.",
+        "Focused on modularity so additional tools and agents can be added without redesigning the complete workflow."
+      ]
+    },
+    {
+      "title": "Trash Throwing Action Detection",
+      "image": "/frame_85.jpg",
+      "code": "https://github.com/bhaskarshukla002/Trash-Throwing-Action-Detection",
+      "projectLink": "https://github.com/bhaskarshukla002/Trash-Throwing-Action-Detection",
+      "tech": [
+        "Python",
+        "OpenCV",
+        "Ultralytics",
+        "YOLOv8",
+        "NumPy",
+        "Computer Vision",
+        "PyTorch"
+      ],
+      "description": "A computer vision system using human pose estimation and object tracking to detect trash-throwing actions in real time.",
+      "modalContent": [
+        "Implemented YOLOv8 pose estimation for human detection and body keypoint tracking.",
+        "Implemented background subtraction and KCF tracking for monitoring carried objects.",
+        "Designed distance-based calculations between tracked objects and hand keypoints to identify throwing actions.",
+        "Optimized the pipeline for real-time processing and achieved approximately 10 FPS on an NVIDIA GTX 1650."
+      ]
+    },
+    {
+      "title": "Project Management App",
+      "image": "/screenshot.png",
+      "code": "https://github.com/bhaskarshukla002/ProjectManageApp",
+      "projectLink": "https://github.com/bhaskarshukla002/ProjectManageApp",
+      "tech": [
+        "Android",
+        "Kotlin",
+        "Firebase",
+        "Retrofit",
+        "Kanban"
+      ],
+      "description": "A project and task management application designed for organizing projects and collaborating with teams.",
+      "modalContent": [
+        "Implemented boards, lists, cards, member assignment, due dates, and notifications.",
+        "Integrated Firebase authentication, real-time database functionality, and cloud storage.",
+        "Built a Kanban-style interface for organizing and tracking project tasks."
+      ]
+    }
+  ],
+
+  "contact": {
+    "callToAction": "Have an idea, project, or cloud engineering problem to discuss? Shoot me an email if you want to connect!",
+    "emailLink": "mailto:bhaskarshukla002@gmail.com",
+    "emailWebLink": "https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Dbhaskarshukla002%40gmail.com"
+  },
+
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/bhaskar-s-283008216/",
+    "github": "https://github.com/bhaskarshukla002",
+    "instagram": "https://www.instagram.com/bhaskarshukla_/",
+    "leetcode": ""
+  },
+
+  "navigation": {
+    "items": [
+      {
+        "id": "about",
+        "label": "About"
+      },
+      {
+        "id": "skills",
+        "label": "Skills"
+      },
+      {
+        "id": "projects",
+        "label": "Projects"
+      },
+      {
+        "id": "experience",
+        "label": "Experience"
+      },
+      {
+        "id": "contact",
+        "label": "Contact"
+      }
+    ]
+  },
+
+  "footer": {
+    "text": "© 2026 Bhaskar Shukla"
+  }
+}

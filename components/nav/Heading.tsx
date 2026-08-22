@@ -1,8 +1,8 @@
 import styles from "./heading.module.scss";
 import { MyLinks } from "./components/MyLinks";
 import { OutlineButton } from "../buttons/OutlineButton";
-// import MyResume from "@/public/Bhaskar-Shukla-resume.pdf";
 import dynamic from 'next/dynamic';
+import data from '@/data';
 
 // const PdfViewer = dynamic(() => import('react-pdf-viewer'), {
   // ssr: false,
@@ -10,11 +10,7 @@ import dynamic from 'next/dynamic';
 
 export const Heading = () => {
   const openResume = () => {
-    // Provide the correct relative path to your PDF file
-    const pdfPath = 'https://drive.google.com/file/d/1x9tHUxw5aDVfeIJFSYt2pQN001vapJ1M/view?usp=sharing';
-
-    // Open the PDF file in a new tab or window
-    window.open(pdfPath, '_blank');
+    window.open(data.personal.resumeUrl, '_blank');
   };
   return (
     <header className={styles.heading}>

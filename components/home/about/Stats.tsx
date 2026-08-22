@@ -1,6 +1,7 @@
 import styles from "./stats.module.scss";
 import { AiFillCode, AiFillSmile } from "react-icons/ai";
 import { Reveal } from "@/components/utils/Reveal";
+import data from "@/data";
 
 export const Stats = () => {
   return (
@@ -12,22 +13,10 @@ export const Stats = () => {
             <span>Use at work</span>
           </h4>
           <div className={styles.statGrid}>
-  <span className="chip">Azure Monitor</span>
-  <span className="chip">Log Analytics</span>
-  <span className="chip">Azure Policy</span>
-  <span className="chip">Logic Apps</span>
-  <span className="chip">BMC Discovery</span>
-  <span className="chip">EvolveOps.ai</span>
-  <span className="chip">SolarWinds</span>
-  <span className="chip">Site24x7</span>
-  <span className="chip">Terraform</span>
-  <span className="chip">Ansible</span>
-  <span className="chip">Jenkins</span>
-  <span className="chip">Kubernetes</span>
-  <span className="chip">Linux</span>
-  <span className="chip">Windows Server</span>
-  <span className="chip">Azure AD (Entra ID)</span>
-</div>
+            {data.stats.useAtWork.map((s) => (
+              <span key={s} className="chip">{s}</span>
+            ))}
+          </div>
 </div>
       </Reveal>
       <Reveal>
@@ -37,16 +26,10 @@ export const Stats = () => {
             <span>Use for fun</span>
           </h4>
           <div className={styles.statGrid}>
-  <span className="chip">KQL</span>
-  <span className="chip">Azure CLI</span>
-  <span className="chip">PowerShell</span>
-  <span className="chip">Terraform (Azure)</span>
-  <span className="chip">Docker</span>
-  <span className="chip">System Design</span>
-  <span className="chip">LeetCode</span>
-  <span className="chip">Cloud Cost Optimization</span>
-  <span className="chip">Observability</span>
-</div>
+            {data.stats.useForFun.map((s) => (
+              <span key={s} className="chip">{s}</span>
+            ))}
+          </div>
         </div>
       </Reveal>
     </div>

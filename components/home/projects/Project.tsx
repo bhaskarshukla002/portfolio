@@ -7,10 +7,10 @@ import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
 interface Props {
-  modalContent: JSX.Element;
+  modalContent: string[] | JSX.Element;
   description: string;
   projectLink: string;
-  imgSrc: StaticImageData;
+  imgSrc: StaticImageData | string;
   tech: string[];
   title: string;
   code: string;

@@ -2,6 +2,7 @@ import { Reveal } from "@/components/utils/Reveal";
 import styles from "./contact.module.scss";
 import { AiFillMail } from "react-icons/ai";
 import Link from "next/link";
+import data from "@/data";
 
 export const Contact = () => {
   return (
@@ -14,23 +15,15 @@ export const Contact = () => {
         </Reveal>
         <Reveal width="100%">
           <p className={styles.contactCopy}>
-            Have an idea to discuss? Shoot me an email if you want to connect! You can also find me on{" "}
-            <Link
-              href="https://www.linkedin.com/in/bhaskar-s-283008216/"
-              target="_blank"
-              rel="nofollow"
-            >
-              Linkedin
-            </Link>{" "}
-            or{" "}
-            <Link href="https://github.com/bhaskarshukla002" target="_blank" rel="nofollow">
-              Github
-            </Link>{" "}
+            {data.contact.callToAction} You can also find me on {" "}
+            <Link href={data.socials.linkedin} target="_blank" rel="nofollow">Linkedin</Link>{" "}
+            or {" "}
+            <Link href={data.socials.github} target="_blank" rel="nofollow">Github</Link>{" "}
             if that&apos;s more your speed.
           </p>
         </Reveal>
         <Reveal width="100%">
-          <Link href="https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Dbhaskarshukla002%40gmail.com%26subject=Hi%20wanted%20to%20connect%20with%20you%20regarding....%26body=hi%20my%20name%20is%20someguy....%20i%20want%20to%20say%20this.....">
+          <Link href={data.contact.emailWebLink}>
             <div className={styles.contactEmail}>
               <AiFillMail size="2.4rem" />
               <span>Send Email</span>

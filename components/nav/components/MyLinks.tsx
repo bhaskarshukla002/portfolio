@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import data from "@/data";
 
 export const MyLinks = () => {
   return (
@@ -18,7 +19,7 @@ export const MyLinks = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.0 }}
       >
-        <Link href="https://www.linkedin.com/in/bhaskar-s-283008216/" target="_blank" rel="nofollow">
+        <Link href={data.socials.linkedin} target="_blank" rel="nofollow">
           <AiFillLinkedin size="2.4rem" />
         </Link>
       </motion.span>
@@ -28,7 +29,7 @@ export const MyLinks = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.1 }}
       >
-        <Link href="https://mail.google.com/mail/?extsrc=mailto&url=mailto%3A%3Fto%3Dbhaskarshukla002%40gmail.com%26subject=Hi%20wanted%20to%20connect%20with%20you%20regarding....%26body=hi%20my%20name%20is%20someguy....%20i%20want%20to%20say%20this....." target="_blank" rel="nofollow">
+        <Link href={data.contact.emailWebLink} target="_blank" rel="nofollow">
           <AiFillMail size="2.4rem" />
         </Link>
       </motion.span>
@@ -38,7 +39,7 @@ export const MyLinks = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <Link href="https://github.com/bhaskarshukla002" target="_blank" rel="nofollow">
+        <Link href={data.socials.github} target="_blank" rel="nofollow">
           <AiFillGithub size="2.4rem" />
         </Link>
       </motion.span>
@@ -48,7 +49,7 @@ export const MyLinks = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        <Link href="https://www.instagram.com/bhaskarshukla_/" target="_blank" rel="nofollow">
+        <Link href={data.socials.instagram} target="_blank" rel="nofollow">
           <AiFillInstagram size="2.4rem" />
         </Link>
       </motion.span>
